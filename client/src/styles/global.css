@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+
+:root {
+  /* Yeniden Tanımlanmış Renk Paleti: Nostaljik ve Modern */
+  --primary-color: #d87c4a; /* Sıcak, yanık turuncu/terakota tonu */
+  --primary-color-dark: #c36e3f; /* Vurgu renginin koyu tonu */
+  --primary-color-light: #f7f5f2; /* Kremsi, sıcak beyaz arka plan */
+  --text-dark: #333333; /* Daha yumuşak bir siyah */
+  --text-light: #777777; /* Okunaklı bir gri tonu */
+  --extra-light: #fbfaf8; /* Çok açık, neredeyse beyaz arka plan */
+  --white: #ffffff;
+  --border-color: #e0e0e0; /* Kenarlıklar için standart renk */
+  --max-width-1400: 1400px;
+  --max-width-1200: 1200px;
+  --max-width-900: 900px;
+  --header-font: "Chivo", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Funnel Display", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* -- width --*/
+
+::-webkit-scrollbar {
+  width: 2px;
+}
